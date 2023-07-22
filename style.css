@@ -1,0 +1,24 @@
+body  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #00000000;
+}
+
+.clock {
+    display: flex;
+    font-size: 2rem;
+}
+
+#hour,
+#minute,
+#second {
+padding: 0.5rem;
+}
+
+#hour::after,
+#minute::after {
+    content: ":";
+}
